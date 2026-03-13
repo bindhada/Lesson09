@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta-name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lunar New Year Party Invitation</title>
+
+    <!-- Animate.css external library -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+
+    <div class="sky">
+
+        <!-- 🔥 INLINE SVG SHOOTING STAR -->
+        <div class="shooting-star">
+            <svg width="120" height="50">
+                <!-- Star head -->
+                <circle cx="115" cy="25" r="6" fill="white" />
+
+                <!-- Trailing tail -->
+                <line x1="20" y1="25" x2="150" y2="25"
+                      stroke="white" stroke-width="3"
+                      stroke-linecap="round" />
+            </svg>
+        </div>
+
+        <!-- ⭐ Twinkling stars -->
+        <div class="star s1"></div>
+        <div class="star s2"></div>
+        <div class="star s3"></div>
+        <div class="star s4"></div>
+
+        <!-- 🎈 Floating balloons -->
+        <div class="balloon b1"></div>
+        <div class="balloon b2"></div>
+        <div class="balloon b3"></div>
+        <div class="balloon b4"></div>
+
+        <!-- 🌙 External SVG -->
+        <img src="moon.svg" class="moon-svg" alt="Moon">
+
+        <!-- Invitation card -->
+        <div class="invite-card animate__animated animate__fadeInDown">
+            <h1>🌙 Lunar New Year Party! ✨</h1>
+            <p>Join us for an unforgettable evening under the stars.</p>
+
+            <p><strong>Date:</strong> February 17th, 2026</p>
+            <p><strong>Time:</strong> 7:00 PM</p>
+            <p><strong>Location:</strong> Bui Vien Walking Street, Ho Chi Minh City</p>
+
+            <a href="#" class="rsvp-btn">RSVP Now</a>
+        </div>
+    </div>
+
+</body>
+</html>
