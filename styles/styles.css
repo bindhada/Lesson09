@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     background: #0b0f25;
     color: white;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 /* Layout */
